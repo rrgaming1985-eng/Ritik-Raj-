@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+<title>Who Is Ritik Raj? | Ritik Raj</title>
+<meta name="description" content="Ritik Raj is a full-stack developer and AI specialist, founder of Rexora Reve and Ruos Studio. He builds precise systems, cinematic interfaces, and intelligent digital products."/>
+<meta name="robots" content="index,follow"/>
+<link rel="canonical" href="https://ritikraj.com"/>
+
+<meta property="og:title" content="Who Is Ritik Raj?"/>
+<meta property="og:description" content="Full-stack developer, AI specialist, founder of Rexora Reve and Ruos Studio."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://ritikraj.com"/>
+
+<meta name="theme-color" content="#0b0c10"/>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Ritik Raj",
+  "url":"https://ritikraj.com",
+  "description":"Full-stack developer, AI specialist, founder of Rexora Reve and Ruos Studio",
+  "worksFor":[
+    {"@type":"Organization","name":"Rexora Reve","url":"https://rexora-reve.netlify.app"},
+    {"@type":"Organization","name":"Ruos Studio","url":"https://ruos-studio.netlify.app"}
+  ]
+}
+</script>
+
+<style>
+/* =========================================================
+   CINEMATIC FOUNDATION
+========================================================= */
+:root{
+  --bg:#0b0c10;
+  --bg-2:#12131a;
+  --glass:rgba(255,255,255,.04);
+  --line:rgba(255,255,255,.08);
+  --text:#e8e8ee;
+  --muted:#9fa2b3;
+  --accent:#b9c2ff;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:linear-gradient(180deg,var(--bg),var(--bg-2));
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial;
+  overflow-x:hidden;
+}
+
+/* Cinematic texture */
+body::before{
+  content:"";
+  position:fixed;
+  inset:-20%;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,.04), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(255,255,255,.03), transparent 40%),
+    linear-gradient(120deg, rgba(255,255,255,.02), rgba(0,0,0,.02));
+  animation:grain 22s var(--ease) infinite;
+  z-index:-1;
+  pointer-events:none;
+}
+@keyframes grain{
+  0%,100%{transform:scale(1);opacity:.65}
+  50%{transform:scale(1.06);opacity:.9}
+}
+
+/* =========================================================
+   TYPOGRAPHY
+========================================================= */
+h1,h2,h3{font-weight:700;letter-spacing:-.02em}
+h1{font-size:clamp(3.8rem,9vw,9rem)}
+h2{font-size:clamp(2.2rem,5vw,3.8rem);margin-bottom:1.5rem}
+h3{font-size:clamp(1.2rem,2vw,1.6rem)}
+p,li{color:var(--muted);line-height:1.75;font-size:clamp(1rem,1.4vw,1.15rem)}
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+section{
+  min-height:100vh;
+  padding:12vh 8%;
+  display:flex;
+  align-items:center;
+}
+.container{max-width:1200px;margin:auto;width:100%}
+
+/* =========================================================
+   HERO
+========================================================= */
+.hero{position:relative;text-align:center}
+.hero .name{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:clamp(8rem,20vw,22rem);
+  opacity:.08;pointer-events:none;white-space:nowrap;
+}
+.hero .tag{margin-top:1rem;color:var(--muted)}
+
+/* =========================================================
+   REVEAL SYSTEM
+========================================================= */
+.reveal{opacity:0;transform:translateY(40px);
+  transition:opacity 1s var(--ease),transform 1.2s var(--ease)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* =========================================================
+   CARDS
+========================================================= */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:2.5rem;
+  margin-top:2.5rem;
+}
+.card{
+  background:var(--glass);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:2.4rem;
+  backdrop-filter:blur(10px);
+  transition:transform .9s var(--ease), box-shadow .9s ease, border-color .6s ease;
+}
+.card:hover{
+  transform:translateY(-10px) scale(1.02);
+  border-color:rgba(255,255,255,.2);
+  box-shadow:0 40px 90px rgba(0,0,0,.7);
+}
+
+/* =========================================================
+   SKILLS GRID
+========================================================= */
+.skills{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:1.2rem;margin-top:2rem
+}
+.skill{
+  padding:1rem 1.2rem;border:1px solid var(--line);
+  border-radius:999px;text-align:center;background:var(--glass);
+  transition:transform .6s var(--ease),background .6s ease
+}
+.skill:hover{transform:translateY(-4px);background:rgba(255,255,255,.06)}
+
+/* =========================================================
+   BUTTON
+========================================================= */
+.btn{
+  margin-top:2rem;display:inline-block;padding:14px 36px;
+  border-radius:999px;border:1px solid var(--line);
+  background:transparent;color:var(--text);text-decoration:none;
+  transition:all .6s var(--ease)
+}
+.btn:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.25)}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+footer{padding:6vh 8%;border-top:1px solid var(--line);text-align:center;color:var(--muted)}
+</style>
+</head>
+
+<body>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="name">Ritik Raj</div>
+  <div class="container reveal">
+    <h1>Who I Am</h1>
+    <p class="tag">
+      Ritik Raj is a full-stack developer, AI specialist, and the mind behind Rexora Reve and Ruos Studio.
+      Everything he creates is designed with precision and built to perform at the highest level.
+      He has a deep passion for gaming that influences his creative vision.
+    </p>
+    <div>
+      <a class="btn" href="https://rexora-reve.netlify.app" target="_blank">Rexora Reve</a>
+      <a class="btn" href="https://ruos-studio.netlify.app" target="_blank" style="margin-left:12px">Ruos Studio</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= IDENTITY ================= -->
+<section>
+  <div class="container reveal">
+    <h2>Identity</h2>
+    <p>
+      Ritik designs systems that feel calm, controlled, and intelligent.  
+      His work blends engineering discipline with cinematic user experience.
+    </p>
+    <p>
+      From AI-powered backends to polished interfaces, every layer is built to scale, perform, and last.
+    </p>
+  </div>
+</section>
+
+<!-- ================= OWNERSHIP ================= -->
+<section>
+  <div class="container reveal">
+    <h2>What He Owns</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Rexora Reve</h3>
+        <p>AI systems, digital infrastructure, and technology platforms engineered for serious founders.</p>
+      </div>
+      <div class="card">
+        <h3>Ruos Studio</h3>
+        <p>Cinematic video editing, motion design, and premium digital experiences for modern brands.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section>
+  <div class="container reveal">
+    <h2>Skill Stack</h2>
+    <div class="skills">
+      <div class="skill">AI Systems</div>
+      <div class="skill">Prompt Engineering</div>
+      <div class="skill">Full-Stack Dev</div>
+      <div class="skill">UI Design</div>
+      <div class="skill">UX Strategy</div>
+      <div class="skill">SEO</div>
+      <div class="skill">Video Editing</div>
+      <div class="skill">Brand Systems</div>
+      <div class="skill">Product Architecture</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROOF ================= -->
+<section>
+  <div class="container reveal">
+    <h2>Proof</h2>
+    <p>
+      Every project across Rexora Reve and Ruos Studio exists to show one thing:
+      intelligent systems can also be beautiful.
+    </p>
+  </div>
+</section>
+
+<!-- ================= CLOSING ================= -->
+<section>
+  <div class="container reveal">
+    <h2>The Horizon</h2>
+    <p>
+      This is not a portfolio.  
+      It is a living system that grows with every product, every build, every idea.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© Ritik Raj — Rexora Reve × Ruos Studio</p>
+</footer>
+
+<script>
+/* Reveal on scroll */
+const obs=new IntersectionObserver(e=>{
+  e.forEach(v=>{if(v.isIntersecting)v.target.classList.add("visible")});
+},{threshold:.15});
+document.querySelectorAll(".reveal").forEach(el=>obs.observe(el));
+</script>
+
+</body>
+</html>
